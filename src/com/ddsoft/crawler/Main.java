@@ -12,9 +12,9 @@ public class Main {
     Crawler test = new Crawler();
     test.enableLogAdd();
     test.enableLogRemove();
-    test.disableLogisModifed();
+//    test.enableLogIsModifed();
     test.enableLogIteration();
-    //test.enableLogIsModifed();
+    test.enableLogIsModifed();
     test.changeDirectory("students.txt");
         try {
             test.run();
